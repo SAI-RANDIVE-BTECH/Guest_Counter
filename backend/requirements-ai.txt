@@ -1,0 +1,8 @@
+# Install this on Python 3.11 for production face recognition.
+# CPU:
+insightface==0.7.3
+onnxruntime==1.18.0
+opencv-python-headless==4.9.0.80
+
+# GPU alternative:
+# Replace onnxruntime with onnxruntime-gpu==1.18.0 when CUDA is configured.
